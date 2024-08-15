@@ -1,0 +1,6 @@
+--- User CRUD Project in .NET Framwork using C# ---
+
+This project is designed and created as a desktop application in .NET Framwork using C#. In this, a end-user can created, updated, deleted, and fetched the user account. User account information can be stored to / extracted from the any type of structured database. The seperated win-form pages are designed for creating a new user account, for updated (altering) user information.
+
+Requirements:
+In order to connect to sql-server or any structured database, the end-user should provide database connection string in the "ConnectionToSql.cs" class, which is located in Datbase directory.
