@@ -120,17 +120,17 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAYAAAC9pNwMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAIkSURBVEhLpZaLVQIxEEUpwRIowRLsQDuQDrQEO5AOoAPpADqADrAD7QDfTWZgNpvsB+85OWve
-        fPKbBBdTuFwuS7VXtS+1vdqPmkMf/U1taSH/g0SWeA74P1qK+Sh4ndK0+bZvi0+1B0s3Ds5qRyIDv2pM
-        5MXcOqCbHb8IecYHx8mcIx9qk2aOn/lHqIfheDmckmuG2T+ZaRbEWbzTXrkM8UwJur9ABPGWx1mb6YZE
-        qjdSPcu5KA8rj3QXI+GQ9cTW5A7SB+9oyy497uTe5ByQtQRb0zsLaWwbRbIxqYP0rdl7xyONgotbnieo
-        P1a5n+itVhoTiy9VZ3D1GdTBr7dyadHn3cVd7ida9zQGQhpc31JvHRP33Nm5GM+3ed9kKwc529epDuqY
-        DxxL4ZKEAeRSDu4MDgrml6gLI8itfKPPZhrEfBMuXCsuCQPIpbXiarVHzC/hwr1nXK68ObhsXCnn4GKs
-        6lUSC6RXq5dv7l5p3fNqVU+5x/EB6PioX77xk+9xfLlaD4A/+NXqlc7ksbdervgA3fKrE7e7lbw3oYjs
-        1fogH0mNfL6OhPLXqXrWc1GeeLbQn7zEeFbVB38OxFsep/977MgYrxZBd/0uE2fxzslMdeRAIcR/f2Cj
-        1rzfEfzMP0K+8Xic1OLKgdmT8Fmtk4S+6djjKmHaoBEFxDO/h/aZjqFgqr18ncbAf/DqTUaJ2E4eCZJy
-        DP5O86XPO4B94rYuFn8g4urVh0vcBgAAAABJRU5ErkJggg==
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAYAAAC9pNwMAAAABGdBTUEAALGPC/xhBQAAAiRJREFUSEul
+        lotVAjEQRSnBEijBEuxAO5AOtAQ7kA6gA+kAOoAOsAPtAN9NZmA2m+wH7zk5a9588psEF1O4XC5LtVe1
+        L7W92o+aQx/9TW1pIf+DRJZ4Dvg/Wor5KHid0rT5tm+LT7UHSzcOzmpHIgO/akzkxdw6oJsdvwh5xgfH
+        yZwjH2qTZo6f+Ueoh+F4OZySa4bZP5lpFsRZvNNeuQzxTAm6v0AE8ZbHWZvphkSqN1I9y7koDyuPdBcj
+        4ZD1xNbkDtIH72jLLj3u5N7kHJC1BFvTOwtpbBtFsjGpg/St2XvHI42Ci1ueJ6g/Vrmf6K1WGhOLL1Vn
+        cPUZ1MGvt3Jp0efdxV3uJ1r3NAZCGlzfUm8dE/fc2bkYz7d532QrBznb16kO6pgPHEvhkoQB5FIO7gwO
+        CuaXqAsjyK18o89mGsR8Ey5cKy4JA8ilteJqtUfML+HCvWdcrrw5uGxcKefgYqzqVRILpFerl2/uXmnd
+        82pVT7nH8QHo+KhfvvGT73F8uVoPgD/41eqVzuSxt16u+ADd8qsTt7uVvDehiOzV+iAfSY18vo6E8tep
+        etZzUZ54ttCfvMR4VtUHfw7EWx6n/3vsyBivFkF3/S4TZ/HOyUx15EAhxH9/YKPWvN8R/Mw/Qr7xeJzU
+        4sqB2ZPwWa2ThL7p2OMqYdqgEQXEM7+H9pmOoWCqvXydxsB/8OpNRonYTh4JknIM/k7zpc87gH3iti4W
+        fyDi6tWHS9wGAAAAAElFTkSuQmCC
 </value>
   </data>
 </root>

@@ -56,27 +56,27 @@
             this.panelUserDetails = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panelPageBottom = new System.Windows.Forms.Panel();
-            this.lblPageInfo = new System.Windows.Forms.Label();
-            this.btnNext = new System.Windows.Forms.Button();
-            this.btnPrevious = new System.Windows.Forms.Button();
-            this.userDetailsByUserNameBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.userDetailsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.userNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.emailDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.firstNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lastNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.statusDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.roleDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.userDetailsBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panelPageBottom = new System.Windows.Forms.Panel();
+            this.lblPageInfo = new System.Windows.Forms.Label();
+            this.btnNext = new System.Windows.Forms.Button();
+            this.btnPrevious = new System.Windows.Forms.Button();
+            this.userDetailsByUserNameBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel2.SuspendLayout();
             this.panelSignUpForm.SuspendLayout();
             this.panelUserDetails.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userDetailsBindingSource)).BeginInit();
             this.panel4.SuspendLayout();
             this.panelPageBottom.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userDetailsByUserNameBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userDetailsBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -132,7 +132,7 @@
             // btnEditUser
             // 
             this.btnEditUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnEditUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(48)))), ((int)(((byte)(90)))));
+            this.btnEditUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(71)))), ((int)(((byte)(121)))));
             this.btnEditUser.FlatAppearance.BorderSize = 0;
             this.btnEditUser.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btnEditUser.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -162,7 +162,7 @@
             // btnDeleteUser
             // 
             this.btnDeleteUser.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDeleteUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(48)))), ((int)(((byte)(90)))));
+            this.btnDeleteUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(71)))), ((int)(((byte)(121)))));
             this.btnDeleteUser.FlatAppearance.BorderSize = 0;
             this.btnDeleteUser.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btnDeleteUser.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
@@ -459,82 +459,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(1073, 187);
             this.dataGridView1.TabIndex = 9;
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.White;
-            this.panel4.Controls.Add(this.panelUserDetails);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(0, 313);
-            this.panel4.Margin = new System.Windows.Forms.Padding(50);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1107, 305);
-            this.panel4.TabIndex = 27;
-            // 
-            // panelPageBottom
-            // 
-            this.panelPageBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            this.panelPageBottom.Controls.Add(this.lblPageInfo);
-            this.panelPageBottom.Controls.Add(this.btnNext);
-            this.panelPageBottom.Controls.Add(this.btnPrevious);
-            this.panelPageBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panelPageBottom.Location = new System.Drawing.Point(0, 577);
-            this.panelPageBottom.Name = "panelPageBottom";
-            this.panelPageBottom.Size = new System.Drawing.Size(1107, 41);
-            this.panelPageBottom.TabIndex = 28;
-            // 
-            // lblPageInfo
-            // 
-            this.lblPageInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblPageInfo.AutoSize = true;
-            this.lblPageInfo.Location = new System.Drawing.Point(962, 14);
-            this.lblPageInfo.Name = "lblPageInfo";
-            this.lblPageInfo.Size = new System.Drawing.Size(35, 13);
-            this.lblPageInfo.TabIndex = 75;
-            this.lblPageInfo.Text = "label4";
-            this.lblPageInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btnNext
-            // 
-            this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnNext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(48)))), ((int)(((byte)(90)))));
-            this.btnNext.FlatAppearance.BorderSize = 0;
-            this.btnNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.btnNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNext.ForeColor = System.Drawing.Color.White;
-            this.btnNext.Location = new System.Drawing.Point(1026, 8);
-            this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(66, 25);
-            this.btnNext.TabIndex = 73;
-            this.btnNext.Text = "Next";
-            this.btnNext.UseVisualStyleBackColor = false;
-            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
-            // 
-            // btnPrevious
-            // 
-            this.btnPrevious.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnPrevious.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(7)))), ((int)(((byte)(48)))), ((int)(((byte)(90)))));
-            this.btnPrevious.FlatAppearance.BorderSize = 0;
-            this.btnPrevious.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
-            this.btnPrevious.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btnPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPrevious.ForeColor = System.Drawing.Color.Transparent;
-            this.btnPrevious.Location = new System.Drawing.Point(887, 8);
-            this.btnPrevious.Name = "btnPrevious";
-            this.btnPrevious.Size = new System.Drawing.Size(66, 25);
-            this.btnPrevious.TabIndex = 74;
-            this.btnPrevious.Text = "Previous";
-            this.btnPrevious.UseVisualStyleBackColor = false;
-            this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
-            // 
-            // userDetailsByUserNameBindingSource
-            // 
-            this.userDetailsByUserNameBindingSource.DataSource = typeof(UserCRUD.Domain.Models.UserDetailsByUserName);
-            // 
-            // userDetailsBindingSource
-            // 
-            this.userDetailsBindingSource.DataSource = typeof(UserCRUD.Domain.Models.UserDetails);
-            // 
             // userNameDataGridViewTextBoxColumn
             // 
             this.userNameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
@@ -577,6 +501,82 @@
             this.roleDataGridViewTextBoxColumn.HeaderText = "Role";
             this.roleDataGridViewTextBoxColumn.Name = "roleDataGridViewTextBoxColumn";
             // 
+            // userDetailsBindingSource
+            // 
+            this.userDetailsBindingSource.DataSource = typeof(UserCRUD.Domain.Models.UserDetails);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.White;
+            this.panel4.Controls.Add(this.panelUserDetails);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel4.Location = new System.Drawing.Point(0, 313);
+            this.panel4.Margin = new System.Windows.Forms.Padding(50);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1107, 305);
+            this.panel4.TabIndex = 27;
+            // 
+            // panelPageBottom
+            // 
+            this.panelPageBottom.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            this.panelPageBottom.Controls.Add(this.lblPageInfo);
+            this.panelPageBottom.Controls.Add(this.btnNext);
+            this.panelPageBottom.Controls.Add(this.btnPrevious);
+            this.panelPageBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panelPageBottom.Location = new System.Drawing.Point(0, 577);
+            this.panelPageBottom.Name = "panelPageBottom";
+            this.panelPageBottom.Size = new System.Drawing.Size(1107, 41);
+            this.panelPageBottom.TabIndex = 28;
+            // 
+            // lblPageInfo
+            // 
+            this.lblPageInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.lblPageInfo.AutoSize = true;
+            this.lblPageInfo.Location = new System.Drawing.Point(962, 14);
+            this.lblPageInfo.Name = "lblPageInfo";
+            this.lblPageInfo.Size = new System.Drawing.Size(35, 13);
+            this.lblPageInfo.TabIndex = 75;
+            this.lblPageInfo.Text = "label4";
+            this.lblPageInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btnNext
+            // 
+            this.btnNext.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnNext.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(71)))), ((int)(((byte)(121)))));
+            this.btnNext.FlatAppearance.BorderSize = 0;
+            this.btnNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.btnNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNext.ForeColor = System.Drawing.Color.White;
+            this.btnNext.Location = new System.Drawing.Point(1026, 8);
+            this.btnNext.Name = "btnNext";
+            this.btnNext.Size = new System.Drawing.Size(66, 25);
+            this.btnNext.TabIndex = 73;
+            this.btnNext.Text = "Next";
+            this.btnNext.UseVisualStyleBackColor = false;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
+            // 
+            // btnPrevious
+            // 
+            this.btnPrevious.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnPrevious.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(71)))), ((int)(((byte)(121)))));
+            this.btnPrevious.FlatAppearance.BorderSize = 0;
+            this.btnPrevious.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
+            this.btnPrevious.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPrevious.ForeColor = System.Drawing.Color.Transparent;
+            this.btnPrevious.Location = new System.Drawing.Point(887, 8);
+            this.btnPrevious.Name = "btnPrevious";
+            this.btnPrevious.Size = new System.Drawing.Size(66, 25);
+            this.btnPrevious.TabIndex = 74;
+            this.btnPrevious.Text = "Previous";
+            this.btnPrevious.UseVisualStyleBackColor = false;
+            this.btnPrevious.Click += new System.EventHandler(this.btnPrevious_Click);
+            // 
+            // userDetailsByUserNameBindingSource
+            // 
+            this.userDetailsByUserNameBindingSource.DataSource = typeof(UserCRUD.Domain.Models.UserDetailsByUserName);
+            // 
             // Create
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -595,11 +595,11 @@
             this.panelUserDetails.ResumeLayout(false);
             this.panelUserDetails.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.userDetailsBindingSource)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panelPageBottom.ResumeLayout(false);
             this.panelPageBottom.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.userDetailsByUserNameBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.userDetailsBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

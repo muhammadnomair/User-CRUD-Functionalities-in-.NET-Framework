@@ -8,7 +8,8 @@ namespace UserCRUD.Domain.DataBase
         private readonly string connectionstring;
         public ConnectionToSql()
         {
-            connectionstring = "Your connection string here for SQLite!";
+            // you can get your DB connection string from the DB settings.
+            connectionstring = "Your connection string here for SQLite Data!";
         }
 
         protected SQLiteConnection GetConnection()

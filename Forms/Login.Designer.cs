@@ -35,11 +35,11 @@
             this.txtpass = new System.Windows.Forms.TextBox();
             this.txtuser = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnclose = new System.Windows.Forms.PictureBox();
             this.btnminimize = new System.Windows.Forms.PictureBox();
+            this.btnclose = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnclose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimize)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnclose)).BeginInit();
             this.SuspendLayout();
             // 
             // lblErrorMessage
@@ -112,7 +112,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(32)))), ((int)(((byte)(64)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(71)))), ((int)(((byte)(121)))));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.panel1.Controls.Add(this.btnminimize);
             this.panel1.Controls.Add(this.btnclose);
@@ -121,17 +121,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(751, 53);
             this.panel1.TabIndex = 15;
-            // 
-            // btnclose
-            // 
-            this.btnclose.Image = ((System.Drawing.Image)(resources.GetObject("btnclose.Image")));
-            this.btnclose.Location = new System.Drawing.Point(710, 11);
-            this.btnclose.Name = "btnclose";
-            this.btnclose.Size = new System.Drawing.Size(29, 36);
-            this.btnclose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.btnclose.TabIndex = 8;
-            this.btnclose.TabStop = false;
-            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
             // 
             // btnminimize
             // 
@@ -143,6 +132,17 @@
             this.btnminimize.TabIndex = 9;
             this.btnminimize.TabStop = false;
             this.btnminimize.Click += new System.EventHandler(this.btnminimize_Click);
+            // 
+            // btnclose
+            // 
+            this.btnclose.Image = ((System.Drawing.Image)(resources.GetObject("btnclose.Image")));
+            this.btnclose.Location = new System.Drawing.Point(710, 11);
+            this.btnclose.Name = "btnclose";
+            this.btnclose.Size = new System.Drawing.Size(29, 36);
+            this.btnclose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btnclose.TabIndex = 8;
+            this.btnclose.TabStop = false;
+            this.btnclose.Click += new System.EventHandler(this.btnclose_Click);
             // 
             // Login
             // 
@@ -160,8 +160,8 @@
             this.Text = "Login";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Login_MouseDown);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btnclose)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnminimize)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnclose)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

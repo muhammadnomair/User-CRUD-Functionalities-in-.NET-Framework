@@ -403,6 +403,7 @@ namespace UserCRUD.Forms
         {
             lblPageInfo.Text = $"Page {currentPage} of {totalPages}";
         }
+        // check validation while creating a new user by providing information in each field
         private bool UserValidation()
         {
             var IsValid = true;
@@ -454,7 +455,8 @@ namespace UserCRUD.Forms
                 MessageBox.Show($"Error occured : {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             return IsValid;
-        }
+        }// End of the function: UserValidation
+        
         private void UserSubmitted()
         {
             lblSubmitUserError.Visible = false;
@@ -508,6 +510,7 @@ namespace UserCRUD.Forms
             errorRole.Visible = false;
             errorStatus.Visible = false;
         }
+        // Check the valid email while creating a new user
         private bool IsValidEmail(string email)
         {
             // Regular expression for a simple email validation
