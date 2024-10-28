@@ -32,6 +32,7 @@ namespace UserCRUD.Forms
         //Events Handling
         #region
 
+        // submit the provided user informaiton to create a new one in database, also validating user informaiton (such as username, password, email)
         private void btnSubmitUser_Click(object sender, EventArgs e)
         {
             try
@@ -54,6 +55,7 @@ namespace UserCRUD.Forms
                                 }
                                 if (!string.IsNullOrEmpty(roleId))
                                 {
+                                    //securing the password with hash and random saly key.
                                     string saltKey = Hashing.GenerateHashedSaltKey();
                                     string hashedPassword = Hashing.GenerateHashPassword(txtPassword.Text, saltKey);
                                     if (userDataLogic.InsertUserData(txtuser.Text, hashedPassword, txtFirstName.Text, txtLastName.Text, txtEmail.Text, txtPhone.Text, comboBoxStatus.SelectedItem.ToString(), roleId, saltKey) == true)
@@ -229,6 +231,7 @@ namespace UserCRUD.Forms
                 txtEmail.ForeColor = Color.Black;
             }
         }
+        // Edit the selected user, if it is in the database.
         private void btnEditUser_Click(object sender, EventArgs e)
         {
             try
@@ -252,11 +255,14 @@ namespace UserCRUD.Forms
             {
                 MessageBox.Show($"Error occured during editing user: {ex.Message}", "Edit User", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
+        }// End of the function: btnEditUser_Click
+
         private void Create_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
+
+        // Delete the selected user from the database.
         private void btnDeleteUser_Click(object sender, EventArgs e)
         {
             try
@@ -299,7 +305,8 @@ namespace UserCRUD.Forms
             {
                 MessageBox.Show($"Error occured during deleting user: {ex.Message}", "Delete User", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-        }
+        }// End of the function: btnDeleteUser_Click
+
         private void Create_Load(object sender, EventArgs e)
         {
             try
